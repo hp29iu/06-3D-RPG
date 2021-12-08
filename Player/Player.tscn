@@ -4638,6 +4638,7 @@ animation = "Idle"
 animation = "Run"
 
 [sub_resource type="AnimationNodeBlendTree" id=22]
+graph_offset = Vector2( 0, -56 )
 nodes/Idle/node = SubResource( 19 )
 nodes/Idle/position = Vector2( 130, 70 )
 nodes/Idle_Run/node = SubResource( 20 )
@@ -4888,11 +4889,11 @@ skin = SubResource( 3 )
 material/0 = SubResource( 4 )
 
 [node name="BoneAttachment" type="BoneAttachment" parent="Root/Skeleton"]
-transform = Transform( -0.814218, 0.132005, 0.565363, 0.43872, -0.497897, 0.748083, 0.380239, 0.85713, 0.347482, -0.662001, 1.33474, 0.224543 )
+transform = Transform( -0.836169, 0.12281, 0.534556, 0.425033, -0.470917, 0.773039, 0.346665, 0.873585, 0.341568, -0.659604, 1.32126, 0.251785 )
 bone_name = "right_hand_thumb_1"
 
 [node name="blasterH" parent="Root/Skeleton/BoneAttachment" instance=ExtResource( 3 )]
-transform = Transform( -1.30971, 0.71616, 0.147597, -0.061663, -0.409875, 1.4416, 0.728606, 1.25264, 0.387317, -0.162909, 0.532715, 0.250025 )
+transform = Transform( -1.16316, 0.750274, -0.578051, -0.0959317, 0.817451, 1.25402, 0.942255, 1.00938, -0.585897, -0.31396, 0.664802, -0.00900477 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Attack = SubResource( 5 )
