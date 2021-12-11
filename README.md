@@ -14,6 +14,7 @@ Condition of winning
 - Add Music
 - Add Shaders
 - Add Start Game Menu
+- Add End Game Menu
 - Add HUD (score and time)
 - Add Dialogue
 
