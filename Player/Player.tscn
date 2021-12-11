@@ -4889,7 +4889,7 @@ skin = SubResource( 3 )
 material/0 = SubResource( 4 )
 
 [node name="BoneAttachment" type="BoneAttachment" parent="Root/Skeleton"]
-transform = Transform( -0.807133, 0.134744, 0.574797, 0.442478, -0.506486, 0.740061, 0.390842, 0.851654, 0.349179, -0.662722, 1.33898, 0.215951 )
+transform = Transform( -0.831171, 0.124993, 0.541795, 0.428438, -0.477113, 0.76734, 0.354406, 0.869906, 0.34301, -0.660177, 1.32438, 0.245489 )
 bone_name = "right_hand_thumb_1"
 
 [node name="blasterH" parent="Root/Skeleton/BoneAttachment" instance=ExtResource( 3 )]
@@ -4914,5 +4914,4 @@ anims/Walk = SubResource( 18 )
 [node name="AnimationTree" type="AnimationTree" parent="."]
 tree_root = SubResource( 22 )
 anim_player = NodePath("../AnimationPlayer")
-active = true
 parameters/Idle_Run/blend_amount = 0.0
