@@ -28,6 +28,9 @@ Assets provided by
 (https://ambientcg.com/view?id=Metal033)
 (https://ambientcg.com/view?id=Metal034)
 
+Terrain provided by 
+(https://www.patreon.com/posts/blender-export-16916038)
+
 Shaders provided by [Godot Shaders]
 (https://godotshaders.com/shader/clouds-in-motion/)
 
